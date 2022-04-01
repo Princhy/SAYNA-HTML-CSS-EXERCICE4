@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: #F1C530;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding: 5%;
+}
+
+#menu { 
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+a{
+    padding: 5% 5% 2% 5%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+@media (max-width:768px){
+    
+        header{ background: none;
+                position: absolute}
+        #menu{ display: none;}
+   
+
+}
+/****************fin header******************************/
+#Premier{
+    background: url("../Assets/Illustration/img7.png") no-repeat;
+    background-size: 100%;
+    color: #FFFFFF;
+    padding: 20% 8%;
+}
+h1{
+    font-size: 10rem;
+}
+
+/****************fin Premier secton*******************/
+#Deuxieme{
+    background-color: #F1C530;
+}
+.col-md-4{
+    padding: 2% 5%;
+}
+.image_no img{
+    width: 100%;
+}
+.border_y{
+    border: 10px solid black;
+    border-radius: 20px;
+    border-top: none;
+    padding: 5%;
+    
+}
+#col{
+    width: 100%;
+    padding: 2% 8% ;
+}
